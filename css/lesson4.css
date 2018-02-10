@@ -1,111 +1,119 @@
 html{background-image: url(../img/background.jpg)}
 body {width:  1000px;
-	 height: 900px;
-	 margin: auto; 
-	 margin-top: 40px; 
+	 height: 950px;
+	 margin: auto;
+	 margin-top: 40px;
 	 background-color: white;
-     margin-bottom: 100px;}
+     margin-bottom: 100px;
+	 box-shadow: 0 0 8px 3px #084656;}
 
-.block{width: 1000px; 
-	 height: 400px; 
+.block{width: 1000px;
+	 height: 400px;
      margin-left: auto;
      margin-right: auto;
      background: white;}
 
 	.block1{width: 100%; height: 173px;}
-  
-    img{margin-left: 20px; 
+
+    img{margin-left: 20px;
     	margin-top: 8px;
     	float: left;}
-   
 
-    .one{margin-top: 10px; 
+
+    .one{margin-top: 10px;
     	margin-right: 40px;
-    	float: right; 
-    	color: #4cb6d8; 
+    	float: right;
+    	color: #4cb6d8;
     	font-size: small;}
-   
+
     .one>li{padding-bottom: 3px}
     .one1{font-weight: bold; margin-bottom: 7px;}
-    
 
-   .flag{ float: right; clear: right; margin-right: 35px;}
+
+   .flag{ float: right; clear: right; margin-right: 35px; margin-top: 15px}
    .flag>img{margin-right: 3px;}
 
-   
+
    .text{float: right; margin-right: 20px;}
    .text>li{
-   	display: inline-block; 
-   	border-color: transparent; 
+   	display: inline-block;
+   	border-color: transparent;
    	float: left;
    	font-size: small;
-   	width: 65px; 
+   	width: 65px;
    	text-align: center;
-   	color: #0c8ab3; 
+   	color: #0c8ab3;
    	margin-left: 2px;}
 
-			.pal{margin-left: auto; margin-right: auto;margin-top: 0;}
+		.pal{margin-left: auto; margin-right: auto;margin-top: 0;}
 
 
 	.block2{margin-right: auto;
-			margin-left: auto; 
-			width: 1000px; 
-			height: 35px; 
-    		margin-left: auto;
-     		margin-right: auto;
-      		background: white;}
-
+			margin-left: auto;
+			width: 1000px;
+			height: 40px;
+    	margin-left: auto;
+     	margin-right: auto;
+      background: white;
+			border-bottom: 2px solid black;
+			margin-top: 10px;
+		}
 
 .menu>li{display: inline-block;
-		width: 140px; height: 35px; 
-		float: left; 
-		text-align: center;line-height: 25px;
-		border: 1px solid grey;
+		width: 140px; height: 35px;
+		float: left;
+		text-align: center; line-height: 25px;
 		padding-top: 5px;
-		background: grey;	
-	    position: relative;}
+		background: grey;
+	  position: relative; border-bottom: 1px solid black;
+	 background: linear-gradient(to top, #303030, #373737);}
 
-.menu>li>a{color: white; 
+.menu>li:first-child {width: 160px;}
+ul.menu>li>a{color: white;
            text-decoration: none;}
 
-.menu>li:first-child{width: 146px}
+.menu>li:first-child{width: 160px}
 
-ul.submenu{display: none;}
+ul.submenu{display: none; margin-top: 12px;box-shadow: 0 5px 8px 3px grey; }
 ul.submenu>li{background: grey;
            color: white;
-           height: 30px;padding: 
-           5px;text-align: 
-           center;line-height: 35px; 
-           position: relative;}
+           height: 30px;padding:
+           5px;text-align:
+           center;line-height: 35px;
+           position: relative;
+				 background: #303030}
 
 ul.submenu>li>a{ color: white; padding-top: 15px;}
 
 ul.menu>li:hover>ul.submenu{display: block;}
-      
+
 
         .block3{ width: 1000px;
-         		height: 500px; 
+         		height: 500px;
          		background: white;
          		margin:auto;}
-        
+
         .block-left {width: 250px;
-         height: 500px; 
-         background: #edeef0; 
-         float:left; 
-         text-align: center;}
-        
-        .block-center {width: 500px; 
+         height: 500px;
+         background: #edeef0;
+         float:left;
+         text-align: center;
+			 box-shadow: inset 0 12px 10px -4px grey;}
+
+        .block-center {width: 500px;
         	           height: 500px;
-        	           background-color: 
-        	           white; float:left;}
-        
-        .block-right {width: 250px; 
+        	           background-color:
+        	           white; float:left;
+									 box-shadow: inset 0 12px 10px -4px grey;}
+
+        .block-right {width: 250px;
         	 		  height: 500px;
-        	 		  background: #edeef0; 
-        	 		  float:right; 
-        			  text-align: center;}
+        	 		  background: #edeef0;
+        	 		  float:right;
+        			  text-align: center;
+							box-shadow: inset 0 12px 10px -4px grey;}
 
         p{margin: 20px; line-height: 1.5;}
         b{ font-size: x-large; }
-        
-        footer{text-align: center; color: #cee3ec; margin-top: 30px;}
+
+        footer{text-align: center; color: #cee3ec; margin-top: 15px;}
