@@ -4,11 +4,11 @@ body {width:  1000px;
 	 margin: auto;
 	 margin-top: 40px;
 	 background-color: white;
-     margin-bottom: 100px;
+   margin-bottom: 100px;
 	 box-shadow: 0 0 8px 3px #084656;}
 
 .block{width: 1000px;
-	 height: 400px;
+	   height: 400px;
      margin-left: auto;
      margin-right: auto;
      background: white;}
@@ -98,20 +98,20 @@ ul.menu>li:hover>ul.submenu{display: block;}
          background: #edeef0;
          float:left;
          text-align: center;
-			 box-shadow: inset 0 12px 10px -4px grey;}
+			   box-shadow: inset 0 12px 10px -4px grey;}
 
         .block-center {width: 500px;
         	           height: 500px;
         	           background-color:
         	           white; float:left;
-									 box-shadow: inset 0 12px 10px -4px grey;}
+									   box-shadow: inset 0 12px 10px -4px grey;}
 
         .block-right {width: 250px;
         	 		  height: 500px;
         	 		  background: #edeef0;
         	 		  float:right;
         			  text-align: center;
-							box-shadow: inset 0 12px 10px -4px grey;}
+							  box-shadow: inset 0 12px 10px -4px grey;}
 
         p{margin: 20px; line-height: 1.5;}
         b{ font-size: x-large; }
